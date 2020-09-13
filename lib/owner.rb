@@ -3,7 +3,7 @@ class Owner
   attr_reader :name, :species
 
   @@all =[]
-  
+
   def name(name)
     @name = name
   end

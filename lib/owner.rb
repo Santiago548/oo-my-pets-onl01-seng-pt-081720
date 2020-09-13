@@ -18,10 +18,10 @@ class Owner
   end
 
   def self.count
-    @@all = []
+    @@all.count
   end
 
   def self.reset_all
-    @@all.reset
+    @@all = []
   end
 end
